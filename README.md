@@ -12,3 +12,5 @@ https://bnk5532.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Brian King
+
+### ©️2022 Run Buddy, Inc
