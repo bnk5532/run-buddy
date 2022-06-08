@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -18,7 +22,6 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-
 }
 
 header a {
@@ -44,11 +47,6 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 footer {
   display: flex;
   background: #fce138;
@@ -71,12 +69,6 @@ footer div {
 
 footer a {
   color: #024e76;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 section {
@@ -113,6 +105,7 @@ section {
   padding: 20px;
   color: #024e76;
   margin: 3.5%;
+  width: 40%;
 }
 
 .hero-form h3 {
@@ -196,6 +189,9 @@ section {
 
 .step-info {
   flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .step-text p {
@@ -323,4 +319,14 @@ section {
 .contact-info > * {
   flex: 1;
   margin: 15px;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }
